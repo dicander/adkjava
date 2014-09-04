@@ -1,0 +1,8 @@
+Optimeringsregler:
+1. Gör det inte. Prioritera stabilitet, korrekthet och underhållningsbarhet.
+2. Profilera först! 90% av tiden spenderas i 10% av koden.
+3. Rätt algoritm
+4. Rätt datastruktur
+5. Minneslokalitet
+
+

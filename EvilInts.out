@@ -1,0 +1,20 @@
+$javac EvilInts.java && java EvilInts
+1 == 1 : true
+1.equals(1) : true
+127 == 127 : true
+127.equals(127) : true
+-128 == -128 : true
+-128.equals(-128) : true
+-129 == -129 : false
+-129.equals(-129) : true
+Created the same number
+1048576 == 1048576 : false
+1048576.equals(1048576) : true
+1048575 is printed to prevent compiler from optimizing
+Incremented to match
+1048576 == 1048576 : false
+1048576.equals(1048576) : true
+Created by assignment!
+1048576 == 1048576 : true
+1048576.equals(1048576) : true
+$

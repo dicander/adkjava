@@ -1,0 +1,9 @@
+# För att profilera ett program
+$java -Xrunhprof:cpu=samples MyProgram <MyInput
+
+# För att disassemblera ett javaprogram
+$javap -c StaticStrings
+
+# För att kompilera, köra och testa ett javaprogram
+$javac Main.java && java Main <test.in >test.out && diff test.out test.key
+

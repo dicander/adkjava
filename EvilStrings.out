@@ -1,0 +1,24 @@
+[...]
+499824998349984499854998649987499884998949990499914999249993499944999549996499974999849999from String
+
+real	0m6.904s
+user	0m6.432s
+sys	0m0.204s
+$
+
+[...]
+4999849999from StringBuilder
+
+real	0m0.487s
+user	0m0.104s
+sys	0m0.016s
+$
+
+[...]
+$javac EvilStrings.java && time java EvilStrings b|wc -m
+238909
+
+real	0m0.099s
+user	0m0.116s
+sys	0m0.016s
+$
